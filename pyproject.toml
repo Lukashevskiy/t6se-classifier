@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "t6se-classifier"
+version = "0.1.0"
+description = "Who gets shot out of the bacterial syringe? 🔫 T6SE-PyPred identifies the toxic effectors launched by the Type VI Secretion System — nature’s tiniest hypodermic needles."
+authors = ["Dmitriy <dim4ik-super-klass@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+biopython = "^1.85"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
